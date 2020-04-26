@@ -10,13 +10,19 @@ body {
 li {
   list-style: none;
 }
+article{
+  background-color: white;
+}
 
- a {
+a{
    text-decoration: none;
- }
+   color: white;
+   font-weight: bold;
+   text-align: center;
+  }
 
 .container {
-  max-width: 1140px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -59,7 +65,69 @@ header{
 }
 
 .top-wrapper {
-  height: 365px;
   padding: 120px 0 100px 0;
-  color: #ffffff;
+  color: black;
+  background-image: url('https://i.pinimg.com/564x/bf/18/b2/bf18b27410473525ae200a76b0e49e95.jpg');
+  background-size: cover;
+  
+  height: 500px;
+  background-position: center;
+}
+h1{
+  margin : 20px 0 20px 20px;
+  font-weight: bold;
+  color:black;
+  text-shadow: 2px 7px 9px rgb(253, 253, 253);
+  font-size: 2em;
+}
+.containerabout{
+  display: flex;
+  /*properti lainnya*/
+  width: 800px;
+  height: 450px;
+  padding: 20px;
+  text-align: center;
+  margin: 0 auto;
+}
+.box{
+  flex-grow: 1;
+  /*properti lainnya*/
+  padding: 10px;
+  margin: 10px;
+  
+}
+.card{
+  background-color: mintcream;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.tombolteam{
+  width: 150px;
+  margin-left: 20px;
+  padding: 10px;
+  background: linear-gradient(rgb(147, 29, 243),rgb(57, 4, 117));
+  cursor: pointer;
+  border-radius: 5px;
+}
+.tombol{
+  width: 200px;
+  margin: auto;
+  padding: 10px;
+  color: white;
+  background: linear-gradient(rgb(147, 29, 243),rgb(57, 4, 117));
+  cursor: pointer;
+  border-radius: 5px;
+}
+.tombol,.tombolteam:hover{
+  background: linear-gradient(darkred,crimson,rgb(255, 0, 76));
+}
+h2{
+  color: darkorange;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  padding: 60px;
+}
+p{
+  font-size: x-large;
+  margin : 20px 0 20px 20px;
+
 }
